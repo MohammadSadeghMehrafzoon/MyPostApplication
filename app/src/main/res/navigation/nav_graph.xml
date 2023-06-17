@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="ir.misterdeveloper.mypostsapplication.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_detailsPostFragment"
+            app:destination="@id/detailsPostFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_favoriteFragment"
+            app:destination="@id/favoriteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsPostFragment"
+        android:name="ir.misterdeveloper.mypostsapplication.ui.DetailsPostFragment"
+        android:label="fragment_details_post"
+        tools:layout="@layout/fragment_details_post" />
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="ir.misterdeveloper.mypostsapplication.ui.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" />
+</navigation>
