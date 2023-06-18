@@ -21,10 +21,18 @@
         android:id="@+id/detailsPostFragment"
         android:name="ir.misterdeveloper.mypostsapplication.ui.DetailsPostFragment"
         android:label="fragment_details_post"
-        tools:layout="@layout/fragment_details_post" />
+        tools:layout="@layout/fragment_details_post" >
+        <argument
+            android:name="postId"
+            app:argType="integer" />
+    </fragment>
     <fragment
         android:id="@+id/favoriteFragment"
         android:name="ir.misterdeveloper.mypostsapplication.ui.FavoriteFragment"
         android:label="fragment_favorite"
-        tools:layout="@layout/fragment_favorite" />
+        tools:layout="@layout/fragment_favorite" >
+        <action
+            android:id="@+id/action_favoriteFragment_to_detailsPostFragment"
+            app:destination="@id/detailsPostFragment" />
+    </fragment>
 </navigation>

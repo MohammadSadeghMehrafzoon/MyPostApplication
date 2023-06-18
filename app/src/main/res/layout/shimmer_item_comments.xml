@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="369dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="20dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textViewName"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/shimmer_text_view"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textViewEmail"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shimmer_text_view"
+                app:layout_constraintStart_toStartOf="@+id/textViewName"
+                app:layout_constraintTop_toBottomOf="@+id/textViewName" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textViewBodyComment"
+                android:layout_width="337dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="16dp"
+                android:maxLines="2"
+                android:background="@drawable/shimmer_text_view"
+
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="@+id/textViewEmail"
+                app:layout_constraintTop_toBottomOf="@+id/textViewEmail" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textViewBodyName"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:textColor="@color/black"
+                android:maxLines="1"
+                android:background="@drawable/shimmer_text_view"
+                app:layout_constraintBottom_toBottomOf="@+id/textViewName"
+                app:layout_constraintStart_toEndOf="@+id/textViewName"
+                app:layout_constraintTop_toTopOf="@+id/textViewName" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textViewBodyEmail"
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:background="@drawable/shimmer_text_view"
+                app:layout_constraintBottom_toBottomOf="@+id/textViewEmail"
+                app:layout_constraintStart_toEndOf="@+id/textViewEmail"
+                app:layout_constraintTop_toTopOf="@+id/textViewEmail" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

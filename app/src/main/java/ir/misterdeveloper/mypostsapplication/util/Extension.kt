@@ -1,7 +1,9 @@
 package ir.misterdeveloper.mypostsapplication.util
 
+import android.content.Context
 import android.graphics.Color
 import android.view.View
+import android.widget.Toast
 import com.google.android.material.snackbar.Snackbar
 
 fun View.errorSnack(message: String, length: Int = Snackbar.LENGTH_LONG) {
@@ -11,3 +13,9 @@ fun View.errorSnack(message: String, length: Int = Snackbar.LENGTH_LONG) {
     snack.show()
 
 }
+
+
+fun Context.toast(context: Context, text:String) {
+    Toast.makeText(context, text, Toast.LENGTH_LONG).show()
+}
+

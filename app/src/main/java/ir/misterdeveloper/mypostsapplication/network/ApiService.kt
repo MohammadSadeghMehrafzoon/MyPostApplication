@@ -12,7 +12,7 @@ interface ApiService {
     suspend fun getPosts(): Response<PostResponse>
 
 
-    @GET("posts")
+    @GET("comments")
     suspend fun getComments(
         @Query("postId") postId: Int
     ): Response<CommentsResponse>

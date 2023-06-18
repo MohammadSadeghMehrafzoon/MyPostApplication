@@ -3,11 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/daris.DESKTOP-L1BQ02N.000/AndroidStudioProjects/MyPostsApplication/app/src/main/res/drawable/shimmer_text_view.xml" value="0.2703125" />
         <entry key="..\:/Users/daris.DESKTOP-L1BQ02N.000/AndroidStudioProjects/MyPostsApplication/app/src/main/res/layout/activity_main.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/daris.DESKTOP-L1BQ02N.000/AndroidStudioProjects/MyPostsApplication/app/src/main/res/layout/fragment_details_post.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/daris.DESKTOP-L1BQ02N.000/AndroidStudioProjects/MyPostsApplication/app/src/main/res/layout/fragment_favorite.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/daris.DESKTOP-L1BQ02N.000/AndroidStudioProjects/MyPostsApplication/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/daris.DESKTOP-L1BQ02N.000/AndroidStudioProjects/MyPostsApplication/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/daris.DESKTOP-L1BQ02N.000/AndroidStudioProjects/MyPostsApplication/app/src/main/res/layout/item_recycler_comments.xml" value="0.2" />
         <entry key="..\:/Users/daris.DESKTOP-L1BQ02N.000/AndroidStudioProjects/MyPostsApplication/app/src/main/res/layout/item_recycler_posts.xml" value="0.264" />
+        <entry key="..\:/Users/daris.DESKTOP-L1BQ02N.000/AndroidStudioProjects/MyPostsApplication/app/src/main/res/layout/module_toolbar.xml" value="0.4" />
+        <entry key="..\:/Users/daris.DESKTOP-L1BQ02N.000/AndroidStudioProjects/MyPostsApplication/app/src/main/res/layout/shimmer_item_comments.xml" value="0.25025641025641027" />
+        <entry key="..\:/Users/daris.DESKTOP-L1BQ02N.000/AndroidStudioProjects/MyPostsApplication/app/src/main/res/layout/shimmer_item_posts.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/daris.DESKTOP-L1BQ02N.000/AndroidStudioProjects/MyPostsApplication/app/src/main/res/layout/shimmer_item_recycler.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/daris.DESKTOP-L1BQ02N.000/AndroidStudioProjects/MyPostsApplication/app/src/main/res/layout/toolbar.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

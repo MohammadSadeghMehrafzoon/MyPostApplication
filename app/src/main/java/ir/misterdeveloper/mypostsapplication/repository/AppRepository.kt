@@ -8,6 +8,5 @@ class AppRepository {
 
     suspend fun getPosts() = RetrofitInstance.apiService.getPosts()
 
-
     suspend fun getComments(postId: Int) = RetrofitInstance.apiService.getComments(postId)
 }
