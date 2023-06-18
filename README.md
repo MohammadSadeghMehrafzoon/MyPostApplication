@@ -1,4 +1,3 @@
-# MyPostApplication
 
 # Methodologies used:
 
